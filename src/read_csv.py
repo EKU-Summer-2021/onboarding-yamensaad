@@ -2,17 +2,8 @@ import pandas as pd
 
 
 def read_csv(path):
+    """
 
-    df = pd.read_csv(path)
-
-    return df
-
-
-
-
-
-
-
-
-
-
+    """
+    df_csp = pd.read_csv(path)
+    return df_csp
