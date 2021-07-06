@@ -1,7 +1,5 @@
 import unittest
-
-import pandas
-
+import pandas as pd
 from src import read_csv
 
 
@@ -11,4 +9,4 @@ class CsvreadTest(unittest.TestCase):
         dataset = read_csv.read_csv(
             'https://raw.githubusercontent.com/EKU-Summer-2021/intelligent_system_data/main/Intelligent%20System'
             '%20Data/CSP/CSP_53000.csv')
-        self.assertIsInstance(dataset, pandas.DataFrame)
+        self.assertIsInstance(dataset, pd.DataFrame)
