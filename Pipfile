@@ -10,6 +10,7 @@ coverage = '*'
 [packages]
 numpy = '*'
 polynomial = "*"
+pandas = '*'
 
 [requires]
 python_version = "3.8"
